@@ -2,33 +2,33 @@ import React from 'react';
 
 const DuckNutzWebsite = () => {
   return (
-    <div className="min-h-screen bg-[url('/images/background.jpg')] bg-cover bg-center bg-fixed bg-no-repeat text-slate-900 font-sans overflow-hidden">
-      {/* Playful Header */}
-      <header className="pt-16 pb-10 text-center relative">
-        <div className="max-w-5xl mx-auto px-6 flex flex-col items-center relative z-10">
-          <img 
-  src="/images/DuckNutzlogo2.png" 
-  alt="DuckNutz LLC Mallard Logo" 
-  className="h-48 md:h-64 w-auto mb-6 drop-shadow-xl hover:scale-105 transition-transform duration-300"
-/>
-          <h1 className="text-5xl font-extrabold text-slate-800 tracking-tight mb-3">
-            DuckNutz LLC
-          </h1>
-          <p className="text-orange-600 text-xl font-bold uppercase tracking-widest">
-            Product Management & Architecture
-          </p>
-        </div>
-      </header>
-
-      <main className="py-12">
-        <div className="max-w-6xl mx-auto px-6">
-          <section className="text-center max-w-2xl mx-auto mb-20">
-            <h2 className="text-4xl font-black mb-6 text-slate-800 leading-tight">
-              The central hub for our digital portfolio.
-            </h2>
-            <p className="text-slate-700 text-lg leading-relaxed font-medium">
-              We manage the product lifecycle and technical execution for modern software platforms. From user-centric mobile experiences to business-grade AI solutions, we build things that actually work.
+    <div className="min-h-screen bg-[url('/images/background.jpg')] bg-cover bg-center bg-fixed bg-no-repeat text-slate-900 font-sans overflow-hidden flex flex-col">
+      
+      <main className="flex-grow py-12 px-6">
+        <div className="max-w-6xl mx-auto">
+          
+          {/* Hero Section with Frosted Glass Backdrop */}
+          <section className="max-w-4xl mx-auto mt-8 mb-20 p-10 md:p-14 bg-white/85 backdrop-blur-md rounded-[3rem] shadow-2xl border border-white/50 text-center">
+            <img 
+              src="/images/DuckNutzlogo2.png" 
+              alt="DuckNutz LLC Mallard Logo" 
+              className="h-48 md:h-64 w-auto mx-auto mb-6 drop-shadow-xl hover:scale-105 transition-transform duration-300"
+            />
+            <h1 className="text-5xl md:text-6xl font-extrabold text-slate-800 tracking-tight mb-3">
+              DuckNutz LLC
+            </h1>
+            <p className="text-orange-600 text-lg md:text-xl font-bold uppercase tracking-widest mb-10">
+              Product Management & Architecture
             </p>
+            
+            <div className="max-w-2xl mx-auto">
+              <h2 className="text-3xl font-black mb-4 text-slate-800 leading-tight">
+                The central hub for our digital portfolio.
+              </h2>
+              <p className="text-slate-700 text-lg leading-relaxed font-medium">
+                We manage the product lifecycle and technical execution for modern software platforms. From user-centric mobile experiences to business-grade AI solutions, we build things that actually work.
+              </p>
+            </div>
           </section>
 
           {/* Fun Product Grid */}
